@@ -14,7 +14,7 @@ const Bottle = ({bottle,  handleAddToCart}) => {
          <h1 className="font-bold">Name: {name}</h1>
          <h2><span className="font-bold">Price:</span> ${price}</h2>
          <h3><span className="font-bold">Stock:</span> {stock}</h3>
-         <button onClick={()=> handleAddToCart(bottle)} className="bg-green-700 text-white py-2 px-3 rounded-md hover:bg-green-500 mt-2">By Now</button>
+         <button onClick={()=> handleAddToCart(bottle)} className="bg-green-700 text-white py-2 px-3 rounded-md hover:bg-green-500 mt-2 w-full">By Now</button>
        </div>
     </div>
   )
