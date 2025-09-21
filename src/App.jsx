@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-    <Suspense fallback = {<h3 className="text-4xl font-bold text-center">Bottles are loading.......</h3>}>
+    <Suspense fallback = {<h3 className="text-3xl font-bold text-center mt-10">Bottles are loading.......</h3>}>
        <Bottles bottlesPromise={bottlesPromise}/>
     </Suspense>
     </>

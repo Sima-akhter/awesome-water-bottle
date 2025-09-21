@@ -50,11 +50,11 @@ const Bottles = ({bottlesPromise}) => {
   return (
     <div>
       <div className='container mx-auto'>
-           <h1 className='text-4xl font-bold text-green-700 text-center p-5 text-shadow-2xs'>Buy Awesome Water Bottle</h1>
+           <h1 className='text-4xl font-bold text-green-700 text-center  text-shadow-2xs mt-10'>Buy Awesome Water Bottle</h1>
 
-           <hr />
-          <h1 className='text-2xl font-bold p-5'>Bottles: {bottles.length}</h1>
-          <h3 className='p-5'>Add to cart: {cart.length}</h3>
+           <hr className='mt-4' />
+          <h1 className='text-2xl font-bold mt-5 p-3 md:p-0'>Bottles: {bottles.length}</h1>
+          <h3 className='mt-2 p-3 md:p-0'>Add to cart: {cart.length}</h3>
           <Cart cart={cart} handleRemoveFromCart={handleRemoveFromCart}></Cart>
          <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
          {

@@ -6,7 +6,7 @@ const Bottle = ({bottle,  handleAddToCart}) => {
         // console.log(bottle,  handleAddToCart);
     
   return (
-    <div className=" border-2 shadow-2xl rounded-md  flex flex-col justify-center items-center p-5">
+    <div className=" border-2 shadow-2xl rounded-md  flex flex-col justify-center items-center p-5 hover:bg-sky-200">
        <div className="w-[250px]  shadow-lg">
          <img className="rounded-md" src={img} alt="" />
        </div>
